@@ -59,8 +59,7 @@ flowchart TD
 	•	Python (pricing engines and validation)
 	•	JSON (tariff schema modeling)
 	•	LLMs (routing, extraction, controlled generation)
-
-•	Workflow orchestration (node-based automation)
+	•   Workflow orchestration (node-based automation)
 	•	Prompt engineering for regulated environments
 
 
