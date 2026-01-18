@@ -10,18 +10,25 @@ A core design principle is the strict separation of AI reasoning and numerical c
 ## Architecture
 
 User Input
+
    ↓
 LLM Router (Intent + Language Detection)
+
    ↓
 Product Sub-Workflow (Motor / Travel / Medical / Life)
+
    ↓
 Validation Layer (Eligibility & Rules)
+
    ↓
 Python Pricing Engine (Tariff-Locked)
+
    ↓
 LLM Sales Agent (Language-Mirrored Output)
+
    ↓
 Issuance-Ready Structured Data
+
 
 ## Core Features
 
