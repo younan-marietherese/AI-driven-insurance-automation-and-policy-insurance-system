@@ -10,14 +10,15 @@ A core design principle is the strict separation of AI reasoning and numerical c
 
 
 ## Architecture
+
 ```mermaid
 flowchart TD
     A[User Input]
-    B[LLM Router\nIntent + Language Detection]
-    C[Product Sub-Workflow\nMotor / Travel / Medical / Life]
-    D[Validation Layer\nEligibility & Rules]
-    E[Python Pricing Engine\nTariff-Locked]
-    F[LLM Sales Agent\nLanguage-Mirrored Output]
+    B[LLM Router<br/>Intent + Language Detection]
+    C[Product Sub-Workflow<br/>Motor / Travel / Medical / Life]
+    D[Validation Layer<br/>Eligibility & Rules]
+    E[Python Pricing Engine<br/>Tariff-Locked]
+    F[LLM Sales Agent<br/>Language-Mirrored Output]
     G[Issuance-Ready Structured Data]
 
     A --> B
