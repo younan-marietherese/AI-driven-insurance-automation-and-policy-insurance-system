@@ -10,7 +10,7 @@ A core design principle is the strict separation of AI reasoning and numerical c
 
 
 ## Architecture
-
+```mermaid
 flowchart TD
     A[User Input]
     B[LLM Router\nIntent + Language Detection]
